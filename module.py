@@ -26,7 +26,7 @@ TURN LINE WRAPPING OFF FOR A BETTER VIEW
 |           dictionary                                              |
 +-------------------------------------------------------------------+
 
-Last Edited on 30/12/2024
+Last Edited on 1/1/2025
 
 """
 
@@ -245,7 +245,7 @@ def updateElement():
                                         pcmDict[f"{_textWritter(j).capitalize()}"][i-1] = marks
                                         i += 1
                                 elif marks == '':
-                                        print(f"\033[A\033[KTest {i}: \033[38;2;255;165;0m*BLANK*\033[32;2;212;212;212m")
+                                        print(f"\033[A\033[KTest {i}: \033[38;2;255;165;0m*BLANK*\033[38;2;212;212;212m")
                                         i += 1
                         except ValueError:
                                 print("Invalid Input 3. Terminating")
